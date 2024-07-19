@@ -1,0 +1,50 @@
+
+/* @font-face {
+    font-family: simo;
+    src: url(../public/fonts/BigSpaceDEMO.ttf);
+}
+ */
+
+
+ .Player{
+    display: flex;
+    flex-direction: column;
+    background-color: #07264F;
+    height: 700px;
+    width: 600px;
+    border-radius: 30px;
+    border-bottom: 3px solid #2190E2;
+    border-top: 3px solid #2190E2;
+    border-left: 3px solid #2190E2;
+    color: white;
+    position: relative;
+    align-items: center;
+}
+
+
+.playText{
+    text-align: center;
+    margin-top: 0%;
+    font-size: xx-large;
+} 
+
+.more{
+    /* margin-left: 300px; */
+    /* position: absolute; */
+    /* margin-left: 300px; */
+}
+
+.username { 
+    position: absolute;
+    top: 32%;
+    color: white;
+}
+
+.avatar{
+    position: absolute;
+    top: 12%;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}

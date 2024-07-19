@@ -1,0 +1,156 @@
+.Profile h1 {
+    text-align: center;
+  }
+
+
+
+.Sbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    padding: 330px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 30px;
+    border: 3px solid #2190E2;
+    /* width: 1650px;
+    height: 700px; */
+    background-color: #07264F;
+    position: relative;
+}
+
+.Savatar{
+    position: absolute;
+    top: 7%;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    color: #07264F;
+}
+
+.Sbox_button1{
+    position: absolute;
+    top: 31%;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #2190E2;
+    color: white;
+    border:#2190E2;
+    font-family: simo;
+    font-size: larger;
+}
+
+.Sbox_input1{
+    position: absolute;
+    top: 45%;
+    width: 350px;
+    height: 50px;
+    background-color: #224771;
+    border-radius: 5px;
+    border: 2px solid #2190E2;
+    font-family: simo;
+    font-size: larger;
+    text-align: center;
+}
+
+.Sbox h1{
+    font-family: simo;
+    font-size: x-large;
+    position: absolute;
+    top: 50%;
+}
+
+.Sbox_input2{
+    position: absolute;
+    top: 60%;
+    width: 150px;
+    height: 50px;
+    background-color: #224771;
+    border-radius: 5px;
+    border: 2px solid #2190E2;
+    font-family: simo;
+    font-size: larger;
+    text-align: center;
+}
+
+.Sbox_button2{
+    position: absolute;
+    top: 75%;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #2190E2;
+    color: white;
+    border:#2190E2;
+    font-family: simo;
+    font-size: xx-large;
+    cursor:pointer;
+}
+
+label input{display:none}
+
+label{
+  position: absolute;
+  top: 32%;
+  padding:1rem 1.5rem;
+  border-radius: 5px;
+  background-color: #2190E2;
+  color: white;
+  border:#2190E2;
+  font-family: simo;
+  font-size: x-large;
+  color:#fff;
+  cursor:pointer;
+}
+
+.toggle {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    top: 60%;
+    width: 62px;
+    height: 32px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #707070;
+    transition: background-color ease 0.3s;
+  }
+  
+  .toggle:before {
+    content: "on off";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 28px;
+    height: 28px;
+    background: #fff;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    font: 10px/28px Helvetica;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-indent: -22px;
+    word-spacing: 37px;
+    color: #fff;
+    text-shadow: -1px -1px rgba(0,0,0,0.15);
+    white-space: nowrap;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    transition: all cubic-bezier(0.3, 1.5, 0.7, 1) 0.3s;
+  }
+  
+  .toggle:checked {
+    background-color: #4CD964;
+  }
+  
+  .toggle:checked:before {
+    left: 32px;
+  }
